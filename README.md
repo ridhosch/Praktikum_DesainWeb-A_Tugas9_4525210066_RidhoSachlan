@@ -36,6 +36,9 @@ Selama proses perancangan, kendala yang dihadapi adalah bagaimana membuat kompon
 
 ## Struktur Folder Project
 
+## Struktur Folder Project
+
+```text
 Praktikum_DesainWeb-A_Tugas9_4525210066_RidhoSachlan/
 ├── css/
 │   └── style.css
