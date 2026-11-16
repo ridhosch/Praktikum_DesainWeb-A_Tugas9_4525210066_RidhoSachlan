@@ -1,0 +1,52 @@
+/* =========================================
+   CUSTOM CSS: IDENTITAS SELARAS COFFEE
+   ========================================= */
+
+:root {
+  --warna-utama: #4A3222;
+  --warna-aksen: #C86D44;
+  --warna-bg: #FAF7F2;
+}
+
+body {
+  background-color: var(--warna-bg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Kustom */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+  color: var(--warna-utama) !important;
+  font-weight: bold;
+}
+
+/* Tombol Kustom */
+.btn-custom {
+  background-color: var(--warna-utama);
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: var(--warna-aksen);
+  color: white;
+}
+
+/* Efek Animasi Kartu Produk */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08) !important;
+}
+
+/* Footer Kustom */
+footer {
+  background-color: var(--warna-utama);
+  color: white;
+}
